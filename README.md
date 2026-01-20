@@ -22,7 +22,7 @@ You can also directly download files from: https://cloud.tsinghua.edu.cn/f/7bca2
 Then put lincs_adata.h5ad, pert_smiles_emb.pkl, dosage_prompt_emb_lincs.pkl into the data folder.
 
 
-## Running code
+## Training and test
 You can directly run the code via:
 ```
 python main.py
