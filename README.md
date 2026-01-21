@@ -1,12 +1,8 @@
 # Gene-Aware Drug Perturbed Transcriptional Responses Prediction (GAPDGE)
-Accurately predicting drug perturbed gene expres sion is essential for drug discovery and biological insight. However, current methods either treat genes as isolated statistical dimensions, neglecting their intrinsic structural and functional priors, or treat drugs and cells as independent modalities, limiting their generalizability to unseen perturbational conditions. To address these limitations, we leverage genomic and chemical foundation models to extract rich biological priors and generate foundational gene and drug representations. Building on this, we introduce a gene-aware attention mechanism that employs these representations as queries and keys to adaptively modulate the impact of perturbations based on cellular state, thereby capturing gene-specific response patterns. Furthermore, a contrastive alignment objective is utilized to synchronize drug and cellular representations in a shared latent space, enabling robust prediction of drug responses to unseen conditions.
-
-![Framework](./Framework.jpg)
-
-
+Accurately predicting drug perturbed gene expression is essential for drug discovery and biological insight. However, current methods either treat genes as isolated statistical dimensions, neglecting their intrinsic structural and functional priors, or treat drugs and cells as independent modalities, limiting their generalizability to unseen perturbational conditions. To address these limitations, we leverage genomic and chemical foundation models to extract rich biological priors and generate foundational gene and drug representations. Building on this, we introduce a gene-aware attention mechanism that employs these representations as queries and keys to adaptively modulate the impact of perturbations based on cellular state, thereby capturing gene-specific response patterns. Furthermore, a contrastive alignment objective is utilized to synchronize drug and cellular representations in a shared latent space, enabling robust prediction of drug responses to unseen conditions.
 
 ## Setup the environment with Anaconda
-Create a new python environment:
+Create a new Python environment:
 ```
 conda create -n GAPDGE python=3.9
 ```
